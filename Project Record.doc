@@ -5,4 +5,18 @@
 
 -Write a function to make train and test data randomly. "RandDataBuild.m"
 
+-Try to run the simply linear regression by the original data and normalized data, compare the result. (20000 samples)
+
+-Find the features seems not totally independent, add some random Gaussian Noise
+
+_-Find that the error rate of linear regression is extremely high
+
+-Try to increase the number of training data and run the linear regression again
+
+-Find that the error rate of linear regression is extremely high
+
+-Check the training error
+
+
+
 
