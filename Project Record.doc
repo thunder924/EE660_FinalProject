@@ -1,6 +1,8 @@
 
 -Prepare for data, separate them to the different vectors depend on the different features. Save the data to a new file "Original Data.mat"
 
+-Check each data, check its type, range, max&min value, and choose the normalization method. Here I choose (x-mean)/std
 
+-Write a function to make train and test data randomly. "RandDataBuild.m"
 
 
