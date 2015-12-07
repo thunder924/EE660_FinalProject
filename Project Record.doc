@@ -9,15 +9,15 @@
 
 -Find the features seems not totally independent, add some random Gaussian Noise
 
-_-Find that the error rate of linear regression is extremely high
+_-Find that the standard error of linear regression is extremely high
 
 -Try to increase the number of training data and run the linear regression again
 
--Find that the error rate of linear regression is extremely high
+-Find that the standard rate of linear regression is extremely high
 
--Check the training error
+-Check the training standard error
 
--Find the training error is close to the testing error
+-Find the training standard error is higher than the testing error
 
 
 
