@@ -17,6 +17,8 @@ _-Find that the error rate of linear regression is extremely high
 
 -Check the training error
 
+-Find the training error is close to the testing error
+
 
 
 
