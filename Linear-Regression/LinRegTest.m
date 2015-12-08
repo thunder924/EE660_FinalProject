@@ -38,12 +38,7 @@ res3_t=round(linregPredict(model3,trainX_n));
 error3=(sum((res3-TestY).^2))/length(res3)
 error3_t=(sum((res3_t-TrainY).^2))/length(res3_t)
 
-%% With Normalization, l2 regularization, student model
-model4=linregFit(trainX_n,TrainY,'regType','L2','lambda',lambda,'likelihood','student');
-res4=round(linregPredict(model4,testX_n));
-res4_t=round(linregPredict(model4,trainX_n));
-error4=(sum((res4-TestY).^2))/length(res4)
-error4_t=(sum((res4_t-TrainY).^2))/length(res4_t)
+
 
 
 
