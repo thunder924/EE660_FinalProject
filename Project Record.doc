@@ -19,6 +19,10 @@ _-Find that the standard error of linear regression is extremely high
 
 -Find the training standard error is higher than the testing error
 
+-Try to add the l2 regularization
+
+-Find the result does not changed a lot
+
 
 
 
