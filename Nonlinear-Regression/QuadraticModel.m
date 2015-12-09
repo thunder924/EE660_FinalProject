@@ -10,6 +10,7 @@ clc
  % Error_qua
  % Error_tqua
 load('RandomData.mat');
+lambda=1;
 rs=0;
 rs_t=0;
 er=0;
@@ -33,7 +34,7 @@ testX_n=standardizeCols(testX);
 
 
 trainY_qua=sqrt(trainY);
-model=linregFit(trainX_n,trainY_qua);
+model=linregFit(trainX_n,trainY_qua,'regType','L1','lambda',lambda);
 res=linregPredict(model,testX_n);
 res_t=linregPredict(model,trainX_n);
 Res=round(res.^2);
